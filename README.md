@@ -1,7 +1,11 @@
 # 🔍 LeetCode AI Helper - Chrome Extension
 
-<p align="center">
-  ![image](https://github.com/user-attachments/assets/20e5c6d5-ec50-4421-bc76-8ab4989e3d8e)
+
+
+https://github.com/user-attachments/assets/12e3b708-a10d-4964-85c4-6a5a14cd0c55
+
+
+  
 
   <br>
   <em>Your AI-powered LeetCode companion right in the browser</em>
@@ -92,7 +96,63 @@ graph LR
     D --> G[Refresh]
     E --> H[Clear Cache]
 ```
-## 🧩 File Structure
+# 📁 Project Structure
+
+```bash
+LeetCodeAIHelper/
+├── 📄 manifest.json          # Extension configuration file
+├── 📜 background.js         # Background service worker
+├── 📜 content.js            # Content injection scripts
+├── 🖼️ icon.png              # Extension icon (128x128 recommended)
+├── 📂 options/              # Settings page components
+│   ├── 📄 options.html      # Options page UI
+│   └── 📜 options.js        # Options page logic
+├── 📂 popup/                # Popup interface
+│   ├── 📄 popup.html        # Popup HTML structure
+│   ├── 📜 popup.js          # Popup functionality
+│   └── 🎨 popup.css         # Popup styling
+```
+# 🤝 How to Contribute
+### 🛠️ Development Setup
+1. Fork the Repository
+https://img.shields.io/badge/-Fork%2520Repository-181717?style=for-the-badge&logo=github
+2. Clone and Install
+   ```bash
+   git clone https://github.com/your-username/LeetCodeAIHelper.git
+   cd LeetCodeAIHelper
+   npm install
+   ```
+3. Development Scripts
+    ```bash
+   npm run dev    # Watch mode for development
+   npm run build  # Production build
+   npm test       # Run tests
+   ```
+## 📝 Coding Standards
+
+| Language    | Style Guide       | Linter   | Configuration | Visual Badge |
+|------------|-------------------|----------|---------------|--------------|
+| JavaScript | [Airbnb](https://github.com/airbnb/javascript) | ESLint | `.eslintrc` | ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=flat&logo=eslint&logoColor=white) |
+| HTML       | [Semantic HTML5](https://developer.mozilla.org/en-US/docs/Glossary/Semantics) | HTMLHint | `.htmlhintrc` | ![HTMLHint](https://img.shields.io/badge/HTMLHint-E34F26?style=flat&logo=html5&logoColor=white) |
+| CSS        | [BEM](http://getbem.com/) | Stylelint | `.stylelintrc` | ![Stylelint](https://img.shields.io/badge/Stylelint-263238?style=flat&logo=stylelint&logoColor=white) |
+
+### Key Features:
+- **Clickable links** to each style guide
+- **Visual badges** for quick recognition
+- **Configuration file** references
+- **Mobile-responsive** table design
+
+## 📜 License
+
+## MIT License
+
+Copyright (c) 2023 Your Name
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software...
 
 
 
