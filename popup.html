@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode AI Helper</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body class="font-sans antialiased bg-gray-100 p-4 w-96">
+    <div class="container mx-auto bg-white rounded-lg shadow-lg p-6">
+        <h1 class="text-2xl font-bold text-gray-800 mb-4 text-center">LeetCode AI Helper</h1>
+
+        <div class="mb-4">
+            <label for="problemText" class="block text-gray-700 text-sm font-semibold mb-2">LeetCode Problem:</label>
+            <textarea id="problemText" rows="6" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-gray-50 text-gray-800" placeholder="Problem description will appear here..." readonly></textarea>
+        </div>
+
+        <button id="solveButton" class="w-full bg-blue-600 text-white py-3 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-200 ease-in-out font-semibold shadow-md">
+            Get AI Solution
+        </button>
+
+        <div id="loadingIndicator" class="hidden text-center mt-4 text-blue-600 font-medium">
+            Thinking...
+        </div>
+
+        <div class="mt-6">
+            <label for="solutionOutput" class="block text-gray-700 text-sm font-semibold mb-2">AI Solution:</label>
+            <textarea id="solutionOutput" rows="12" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 bg-gray-50 text-gray-800" placeholder="AI solution will appear here..." readonly></textarea>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
